@@ -54,3 +54,25 @@ button:focus{
 .shop {
     color: rgb(40, 158, 133);
 }
+
+/* midea query css */
+@media (max-width: 575.98px) {
+    .App-body{
+        flex-direction: column;
+    }
+    .total {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 802.98px) {
+    .App-body{
+        flex-direction: column;
+    }
+ }
+
+/* // Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... } */
